@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+camelot-py
+opencv-python-headless
+pdfplumber
+pandas
+python-multipart
+
