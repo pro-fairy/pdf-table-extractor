@@ -18,7 +18,7 @@ jobs:
         with:
           host: 165.227.175.252
           username: root
-          key: ${{ secrets.SERVER_SSH_KEY }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             cd /root/pdf-table-extractor
             git pull origin main
