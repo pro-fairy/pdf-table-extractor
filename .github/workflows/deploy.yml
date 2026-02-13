@@ -19,7 +19,7 @@ jobs:
           host: 165.227.175.252
           username: root
           key: ${{ secrets.GIT_PULL_ACCESS }}
-          command_timeout: 30m
+          command_timeout: 60m
           script: |
             cd /root/pdf-table-extractor
             git pull origin main
