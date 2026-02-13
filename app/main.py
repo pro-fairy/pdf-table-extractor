@@ -4,7 +4,7 @@ import tempfile
 import os
 import pandas as pd
 
-app = FastAPI()228
+app = FastAPI()
 
 
 def normalize(text: str) -> str:
