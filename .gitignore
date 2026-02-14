@@ -1,0 +1,27 @@
+# Python
+pycache/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.env.*
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Docker
+*.tar
+
+# Temporary files
+tmp/
+temp/
