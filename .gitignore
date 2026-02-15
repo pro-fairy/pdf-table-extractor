@@ -25,3 +25,6 @@ venv/
 # Temporary files
 tmp/
 temp/
+
+# Test data (personal medical data - NEVER commit!)
+test_data/
